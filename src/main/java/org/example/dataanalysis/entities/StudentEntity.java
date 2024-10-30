@@ -50,4 +50,5 @@ public class StudentEntity {
     public String toString() {
         return "id: " + id + ", name: " + name + ", surname: " + surname + ", group: " + group;
     }
+
 }
