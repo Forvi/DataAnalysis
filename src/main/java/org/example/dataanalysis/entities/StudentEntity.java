@@ -48,6 +48,7 @@ public class StudentEntity {
 
     @Override
     public String toString() {
-        return "id: " + id + ", name: " + name + ", surname: " + surname + ", group: " + group;
+        return String.format("Id: %s, Name: %s, Surname: %s, Group: %s", id, name, surname, group);
     }
+
 }
